@@ -30,7 +30,6 @@
 
 /* --- YOUR IMPORTS GO HERE --- */
 
-
 // STEP 2: Navigation data (outside the component)
 // Create a `navigation` object with these keys:
 //   shop: array of { name, href } objects
@@ -50,7 +49,6 @@
 
 /* --- YOUR DATA OBJECTS GO HERE --- */
 
-
 // STEP 3: LocationMap component (helper component)
 // function LocationMap() { ... }
 //   - Use useRef for mapRef (DOM element) and mapInstance (Leaflet map)
@@ -61,7 +59,6 @@
 //   - Render: <div ref={mapRef} className="footer-map" />
 
 /* --- YOUR LOCATIONMAP COMPONENT GOES HERE --- */
-
 
 // STEP 4: Create and export FooterSection
 // export default function FooterSection() { ... }
