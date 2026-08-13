@@ -54,3 +54,46 @@
 // for the navigation links in the NavBar.
 
 /* --- YOUR COMPONENT CODE GOES HERE --- */
+import HeroSection from "./components/HeroSection";
+
+export default function App() {
+    return(
+        <div className="app">
+        {/* NavBar */}
+       
+        {/* Hero Section */}
+        <section className="hero bg-hero">
+            <div className="hero-grid">
+                <HeroSection />
+            </div>
+        </section>
+        
+        {/* Features / Carousel*/}
+        <section className="features bg-features" id="shop">
+            
+        </section>
+        {/* Product Showcase */}
+        <section className="bg-cta">
+        
+        </section>
+        
+        {/* CTA Section */}
+        <section className="bg-cta">
+        
+        </section>
+        {/* About Section */}
+         <section className="bg-cta" id="about">
+        
+        </section>
+        {/* Contact Section */}
+        <section className="bg-cta" id="contact">
+        
+        </section>
+        
+        {/* Footer Section */}
+        <section className="bg-footer">
+        
+        </section>
+        </div>
+    );
+}
