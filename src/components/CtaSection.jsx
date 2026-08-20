@@ -26,7 +26,11 @@
 //   AnimatedCounter
 
 /* --- YOUR IMPORTS GO HERE --- */
-
+import Badge from "./ui/Badge";
+import Button from "./ui/Button";
+import Separator from "./ui/Separator";
+import { ScrollReveal, StaggerContainer, StaggerItem } from "./ui/ScrollReveal";
+import AnimatedCounter from "./ui/AnimatedCounter";
 
 // STEP 2: Define the perks array (outside the component)
 // const perks = [
@@ -35,8 +39,6 @@
 //   { icon: "truck emoji", label: "Free Shipping $50+" },
 //   { icon: "recycle emoji", label: "Eco-Friendly Bags" }
 // ];
-
-/* --- YOUR PERKS DATA GOES HERE --- */
 
 
 // STEP 3: Create and export CtaSection
@@ -84,3 +86,9 @@
 //   </div>
 
 /* --- YOUR COMPONENT CODE GOES HERE --- */
+const perks = [
+  { icon: "🌱", label: "Ethically Sourced" },
+  { icon: "🔥", label: "Freshly Roasted" },
+  { icon: "🚚", label: "Free Shipping $50+" },
+  { icon: "♻️", label: "Eco-Friendly Bags" }
+];
