@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useInView, useSpring, useTransform, motion } from "framer-motion";
 
-export default function AnimatedCounter({ target, duration = 2, suffix = "", prefix = "" }) {
+export default function AnimatedCounter({ target, duration = 4, suffix = "", prefix = "" }) {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, amount: 0.5 });
 
